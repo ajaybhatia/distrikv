@@ -1,0 +1,16 @@
+# Binaries and executable layouts
+bin/
+distrikvd
+
+# Local data engine persistence files (Our active WAL storage)
+*.wal
+*.db
+*.sst
+
+# Debugging and Performance Profiling Outputs
+*.prof
+*.test
+
+# Operating system specific dumps
+.DS_Store
+Thumbs.db
