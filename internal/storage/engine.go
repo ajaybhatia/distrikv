@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	ErrkeyNotFound = errors.New("key not found in storage engine")
+	ErrKeyNotFound = errors.New("key not found in storage engine")
 	ErrEmptyKey    = errors.New("key cannot be empty")
 )
 
