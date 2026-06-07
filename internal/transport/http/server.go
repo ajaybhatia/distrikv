@@ -59,7 +59,7 @@ func (s *Server) handlePut(c *gin.Context) {
 		return
 	}
 
-	c.Status(http.StatusOK) // If the key-value pair is stored successfully, respond with a 200 OK status.
+	c.Status(http.StatusCreated) // If the key-value pair is stored successfully, respond with a 201 Created status.
 }
 
 // handleGet processes incoming GET requests to retrieve values associated with keys from the storage engine.
